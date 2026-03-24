@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hunt Labs مبادرة بحثية في الأمن السيبراني مكرسة لبناء إطار دفاع وطني مستقل.">
+    <title>Hunt Labs | الدفاع الوطني المستقل</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Corner Brackets -->
+    <div class="corner top-left"></div>
+    <div class="corner top-right"></div>
+    <div class="corner bottom-left"></div>
+    <div class="corner bottom-right"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <div class="nav-logo">
+                <span class="nav-logo-text">HUNT LABS</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#services">خدماتنا</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="hero-grid-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">إطار الدفاع الوطني المستقل</div>
+            <h1 class="hero-title">
+                HUNT<br><span class="gradient-text">LABS</span>
+            </h1>
+            <p class="hero-tagline">سيادة. تحليل. دفاع.</p>
+            <p class="hero-description">
+                مبادرة بحثية متخصصة في الأمن السيبراني، تعمل على بناء منظومة دفاع وطني مستقلة تُعزز قدرات الرصد والتحليل السيادي، ومحاكاة التهديدات المتقدمة، وحماية البنية التحتية الحيوية.
+            </p>
+            <div class="hero-cta">
+                <a href="#services" class="btn-primary">عرض الخدمات</a>
+                <a href="#about" class="btn-secondary">مهمتنا</a>
+            </div>
+        </div>
+        <div class="hero-status-bar">
+            <span class="status-item"><span class="status-dot active"></span>الأنظمة تعمل</span>
+            <span class="status-item mono">SECURE CHANNEL EST.</span>
+            <span class="status-item mono" id="clock"></span>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label mono">01 / من نحن</span>
+                <h2 class="section-title">ما هو <span class="gradient-text">Hunt Labs</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Hunt Labs مبادرة بحثية في الأمن السيبراني، تعمل على تأسيس منظومة دفاع وطني مستقلة. نشتغل عند تقاطع البحث الهجومي والتحليل الاستراتيجي والحماية السيادية.</p>
+                    <p>يتمحور عملنا حول رصد وفهم ومحاكاة أكثر الجهات تطوراً في مشهد التهديدات، بهدف تأمين البنية التحتية الوطنية والمؤسسات الحيوية في المنطقة.</p>
+                    <p>لا نسير خلف اتجاهات السوق التجاري. نبني المنظومات الدفاعية التي تحتاجها الحكومات والمؤسسات الأمنية الوطنية فعلاً.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label mono">02 / الخدمات</span>
+                <h2 class="section-title">قدرات <span class="gradient-text">الدفاع</span></h2>
+                <p class="section-subtitle">يقدم Hunt Labs طيفاً متكاملاً من الخدمات الدفاعية السيادية، مصممة لتلبية متطلبات العمل على المستوى الوطني.</p>
+            </div>
+            <div class="services-grid">
+
+                <div class="service-card" data-num="01">
+                    <div class="service-num mono">01</div>
+                    <h3 class="service-title">رسم خريطة الخصوم</h3>
+                    <p class="service-desc">توثيق معمّق لأساليب وأدوات ومسارات عمل نخبة الجهات المهاجِمة، يكشف ما تُغفله منصات الأمن التجارية من نشاط إقليمي وعالمي.</p>
+                </div>
+
+                <div class="service-card" data-num="02">
+                    <div class="service-num mono">02</div>
+                    <h3 class="service-title">مكتبات الرصد الوطنية</h3>
+                    <p class="service-desc">بناء منطق كشف دقيق ومجموعات بيانات تهديد مُصمَّمة أصلاً للسياق الوطني، وموجَّهة نحو حماية البنية التحتية الحيوية.</p>
+                </div>
+
+                <div class="service-card" data-num="03">
+                    <div class="service-num mono">03</div>
+                    <h3 class="service-title">محاكاة الهجوم التكيفية</h3>
+                    <p class="service-desc">قياس صمود المنظومة الدفاعية عبر سيناريوهات هجوم واقعية ودقيقة، تسد الفجوة بين أدوات الكشف ومناهج الاختراق الفعلية.</p>
+                </div>
+
+                <div class="service-card" data-num="04">
+                    <div class="service-num mono">04</div>
+                    <h3 class="service-title">قياس المنظومة الدفاعية</h3>
+                    <p class="service-desc">ضغط ممنهج وصارم على الحلول الأمنية للكشف عن الثغرات التشغيلية ونقاط الضعف الخفية التي قد يستغلها خصوم من الدرجة الأولى.</p>
+                </div>
+
+                <div class="service-card" data-num="05">
+                    <div class="service-num mono">05</div>
+                    <h3 class="service-title">البحث والتطوير الهجومي</h3>
+                    <p class="service-desc">تصميم وبناء أدوات داخلية مخصصة تشمل أنظمة القيادة والسيطرة (C2) وبرمجيات متخصصة وبنى تقنية متقدمة لأغراض البحث العلمي.</p>
+                </div>
+
+                <div class="service-card" data-num="06">
+                    <div class="service-num mono">06</div>
+                    <h3 class="service-title">بيئات APT عالية الدقة</h3>
+                    <p class="service-desc">تشييد بيئات مختبرية مخصصة ومتكاملة لمحاكاة واختبار دورات الهجوم المعقدة متعددة المراحل على نطاق واسع وبمستوى احترافي.</p>
+                </div>
+
+                <div class="service-card service-card-wide" data-num="07">
+                    <div class="service-num mono">07</div>
+                    <h3 class="service-title">تحويل البيانات إلى قرار</h3>
+                    <p class="service-desc">تحليل سجلات الهجمات وبيانات القياس الميداني، واستخلاص صورة عملية قابلة للتنفيذ تُعزز الموقف الدفاعي وتُغذي صانع القرار بما يحتاجه.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-inner">
+            <span class="mono footer-copy">HUNT LABS // جميع الحقوق محفوظة // 2026</span>
+            <span class="footer-tag">إطار الدفاع الوطني المستقل</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
